@@ -1,0 +1,11 @@
+[
+  {
+    "command": "npm run start:dev",
+    "description": "Run webpack"
+  },
+
+  {
+    "command": "bin/start && bin/rake db:migrate && bundle",
+    "description": "Start postgresql && redis"
+  }
+]
