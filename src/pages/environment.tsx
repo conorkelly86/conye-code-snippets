@@ -5,11 +5,11 @@ import React from "react";
 import {
   Card
 } from "react-bootstrap";
-import snips from "../data/git.json";
+import snips from "../data/environment.json";
 
 
 
-const Git: NextPage = () => (
+const Environment: NextPage = () => (
   <AdminLayout>
     <div className="row">
       <div className="col-sm-12 col-lg-8">
@@ -26,4 +26,4 @@ const Git: NextPage = () => (
   </AdminLayout>
 );
 
-export default Git;
+export default Environment;

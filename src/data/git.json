@@ -1,7 +1,11 @@
 [
-    {
-      "name": "ABC"
-    },
+  {
+    "command": "git reset --hard origin/main",
+    "description": "Reset to the latest version of the main branch"
+  },
 
-    { "name": "DererEF" }
-  ]
+  {
+    "command": "gh repo create [<name>] [flags]",
+    "description": "Create a new repo"
+  }
+]
