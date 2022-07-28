@@ -65,6 +65,8 @@
     "semi": [
       2,
       "never"
-    ]
+    ],
+    "semicolon": [true, "never"]
+
   }
 }

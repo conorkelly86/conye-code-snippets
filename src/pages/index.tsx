@@ -1,7 +1,3 @@
-import type { NextPage } from 'next'
-import Image from 'next/image'
-import { AdminLayout } from '@layout'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faArrowDown,
   faArrowUp,
@@ -12,12 +8,21 @@ import {
   faUsers,
   faVenus,
 } from '@fortawesome/free-solid-svg-icons'
-import { useClipboard } from '@chakra-ui/react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { AdminLayout } from '@layout'
+import type { NextPage } from 'next'
+import Image from 'next/image'
 
 import {
-  Button, ButtonGroup, Card, Dropdown, ProgressBar,
-} from 'react-bootstrap'
-import { Bar, Line } from 'react-chartjs-2'
+  faCcAmex,
+  faCcApplePay,
+  faCcPaypal,
+  faCcStripe,
+  faCcVisa,
+  faFacebookF,
+  faLinkedinIn,
+  faTwitter,
+} from '@fortawesome/free-brands-svg-icons'
 import {
   BarElement,
   CategoryScale,
@@ -28,18 +33,11 @@ import {
   PointElement,
   Tooltip,
 } from 'chart.js'
-import {
-  faCcAmex,
-  faCcApplePay,
-  faCcPaypal,
-  faCcStripe,
-  faCcVisa,
-  faFacebookF,
-  faLinkedinIn,
-  faTwitter,
-  faGit
-} from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
+import {
+  Button, ButtonGroup, Card, Dropdown, ProgressBar,
+} from 'react-bootstrap'
+import { Bar, Line } from 'react-chartjs-2'
 
 Chart.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, Tooltip, Filler)
 
