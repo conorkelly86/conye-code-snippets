@@ -1,0 +1,6 @@
+[
+  {
+    "command": "['ecommerce', 1, true]",
+    "description": "Add to entitlements_api_stubs.rb to switch between eCom customer and non-eCom customer"
+  }
+]

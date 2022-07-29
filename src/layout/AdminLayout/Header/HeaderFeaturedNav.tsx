@@ -19,6 +19,11 @@ export default function HeaderFeaturedNav() {
           <Nav.Link className="p-2">Rails</Nav.Link>
         </Link>
       </Nav.Item>
+      <Nav.Item>
+        <Link href="/codebase" passHref>
+          <Nav.Link className="p-2">Codebase</Nav.Link>
+        </Link>
+      </Nav.Item>
     </Nav>
   );
 }
