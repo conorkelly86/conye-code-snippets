@@ -159,6 +159,9 @@ export default function SidebarNav() {
       <SidebarNavItem icon={faGem} href="rails">
         Rails
       </SidebarNavItem>
+      <SidebarNavItem icon={faCode} href="codebase">
+        Codebase
+      </SidebarNavItem>
     </ul>
   );
 }
