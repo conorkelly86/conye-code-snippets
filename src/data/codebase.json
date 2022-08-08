@@ -2,5 +2,13 @@
   {
     "command": "['ecommerce', 1, true]",
     "description": "Add to entitlements_api_stubs.rb to switch between eCom customer and non-eCom customer"
+  },
+  {
+    "command": "# has_feature?(Feature::ECOMMERCE_INTERNAL) || has_entitlement?('ecommerce')",
+    "description": "Comment this line 'true' for eCom custoemr or false for non-eCom customer"
+  },
+  {
+    "command": "/sites?add_site_success=yourinstallnamehere&env=production&woo=1",
+    "description": "Open Modal of a successful site install"
   }
 ]
