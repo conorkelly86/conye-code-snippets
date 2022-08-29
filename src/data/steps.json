@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Starting a localhost",
+    "step1": "bin/start",
+    "step2": "bin/rake db:migrate",
+    "step3": "bundle install",
+    "step4": "npm ci",
+    "step5": "bin/rails s",
+    "step6": "bin/webpack -w"
+  }
+]

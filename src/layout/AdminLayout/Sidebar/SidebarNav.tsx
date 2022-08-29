@@ -162,6 +162,9 @@ export default function SidebarNav() {
       <SidebarNavItem icon={faCode} href="codebase">
         Codebase
       </SidebarNavItem>
+      <SidebarNavItem icon={faCode} href="steps">
+        Steps
+      </SidebarNavItem>
     </ul>
   );
 }
