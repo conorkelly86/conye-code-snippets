@@ -24,7 +24,7 @@ const Steps: NextPage = () => (
           <Card.Body>
             {snips.map((snip, key) => (
               <>
-                <Accordion>
+                <Accordion allowToggle>
                   <AccordionItem>
                     <h2>
                       <AccordionButton>
