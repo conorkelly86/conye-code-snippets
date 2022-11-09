@@ -1,0 +1,6 @@
+[
+  {
+    "command": "/sites?add_site_success=yourinstallnamehere&env=production&woo=1",
+    "description": "Force open Welcome to Woocommerce Modal"
+  }
+]
