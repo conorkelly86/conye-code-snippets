@@ -1,21 +1,19 @@
 [
-    {
-      "command": "bin/ rails s",
-      "description": "Start a rails server"
-    },
-  
-    {
-      "command": "rspec ./path-to-file",
-      "description": "Run tests"
-    },
-    {
-        "command": "rubocop -A",
-        "description": "Ruby Linter all files"
-      },
-      {
-        "command": "rubocop ./path-to-file",
-        "description": "Ruby Linter specific file"
-      }
-      
-  ]
-  
+  {
+    "command": "bin/rails s",
+    "description": "Start a rails server"
+  },
+
+  {
+    "command": "rspec ./path-to-file",
+    "description": "Run tests"
+  },
+  {
+    "command": "rubocop -A",
+    "description": "Ruby Linter all files"
+  },
+  {
+    "command": "rubocop ./path-to-file",
+    "description": "Ruby Linter specific file"
+  }
+]
