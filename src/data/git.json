@@ -8,4 +8,9 @@
     "command": "gh repo create [<name>] [flags]",
     "description": "Create a new repo"
   }
+  {
+    "command": "git remote set-url origin https://github.com/wpengine/my_wpe.git",
+    "description": "If askpass.sh error occurs. Sign into Github on VS Code and reauth"
+  }
+  
 ]
