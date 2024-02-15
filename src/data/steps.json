@@ -6,6 +6,8 @@
     "step3": "bundle install",
     "step4": "npm ci",
     "step5": "bin/rails s",
-    "step6": "bin/webpack -w"
+    "step6": "bin/webpack -w",
+    "step7": "bin/rails s -b 0.0.0.0",
+    "step8": "npm run start:dev"
   }
 ]
