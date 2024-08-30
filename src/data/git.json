@@ -13,7 +13,23 @@
     "description": "If askpass.sh error occurs. Sign into Github on VS Code and reauth"
   },
   {
-    "command": "git checkout main git pull --rebase git checkout - git rebase main git push --set-upstream origin branch-name",
+    "command": "git checkout main",
+    "description": "rebase steps"
+  },
+  {
+    "command": "git pull --rebase main git push --set-upstream origin branch-name",
+    "description": ""
+  },
+  {
+    "command": "git checkout - git rebase main git push --set-upstream origin branch-name",
+    "description": ""
+  },
+  {
+    "command": "git rebase main git push --set-upstream origin branch-name",
+    "description": ""
+  },
+  {
+    "command": "git push --set-upstream origin branch-name",
     "description": "rebase steps"
   }
 ]
