@@ -1,0 +1,23 @@
+[
+  {
+    "command": "wp-engine-signals.uam_secure_data_egress__gcp_pubsub__sqm_events.int_sqm_query_aggregates_1hour",
+    "description": "Slow Query Aggregate Data"
+  },
+
+  {
+    "command": "wp-engine-signals.uam_stg_segment.stg_segment__wpe_unified_page_viewed",
+    "description": "Page Views"
+  },
+  {
+    "command": "wp-engine-signals.uam_stg_segment.stg_segment__wpe_unified_cta_clicked",
+    "description": "Cta clicked"
+  },
+  {
+    "command": "wp-engine-signals.uam_stg_segment.stg_segment__wpe_unified_navigation_clicked",
+    "description": "Navigation clicked"
+  },
+  {
+    "command": "wp-engine-signals.uam_stg_segment.stg_segment__wpe_unified_content_viewed",
+    "description": "Content viewed"
+  }
+]

@@ -29,6 +29,11 @@ export default function HeaderFeaturedNav() {
           <Nav.Link className="p-2">Steps</Nav.Link>
         </Link>
       </Nav.Item>
+      <Nav.Item>
+        <Link href="/queries" passHref>
+          <Nav.Link className="p-2">Queries</Nav.Link>
+        </Link>
+      </Nav.Item>
     </Nav>
   );
 }
