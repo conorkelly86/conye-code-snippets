@@ -165,9 +165,13 @@ export default function SidebarNav() {
       <SidebarNavItem icon={faCode} href="steps">
         Steps
       </SidebarNavItem>
-      <SidebarNavItem icon={faCode} href="steps">
+      <SidebarNavItem icon={faCode} href="portal">
+        Portal
+      </SidebarNavItem>
+       <SidebarNavItem icon={faCode} href="steps">
         Queries
       </SidebarNavItem>
+
     </ul>
   );
 }
