@@ -11,10 +11,9 @@
   {
     "command": "git remote set-url origin https://github.com/wpengine/my_wpe.git",
     "description": "If askpass.sh error occurs. Sign into Github on VS Code and reauth"
-  }
+  },
   {
     "command": "git checkout main git pull --rebase git checkout - git rebase main git push --set-upstream origin branch-name",
     "description": "rebase steps"
   }
- 
 ]
