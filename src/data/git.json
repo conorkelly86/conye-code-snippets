@@ -17,15 +17,11 @@
     "description": "rebase steps"
   },
   {
-    "command": "git pull --rebase main git push --set-upstream origin branch-name",
+    "command": "git pull",
     "description": ""
   },
   {
-    "command": "git checkout - git rebase main git push --set-upstream origin branch-name",
-    "description": ""
-  },
-  {
-    "command": "git rebase main git push --set-upstream origin branch-name",
+    "command": "git checkout -",
     "description": ""
   },
   {
