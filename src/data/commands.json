@@ -1,0 +1,50 @@
+[
+  {
+    "command": "make destroy; npm ci; bundle install;",
+    "description": "Not authorised to view a site in Portal localhost"
+  },
+  {
+    "command": "heroku login && make start-no-portal && make db_latest_dev && docker cp tmp/latest.dump docker-database-1:/tmp/latest.dump && make db_drop && make db_create && make db_restore && bin/start",
+    "description": "Rebuild docker image with newest DB schema"
+  },
+  {
+    "command": "./scripts/copy_development_db_to_local.sh",
+    "description": "Restore dev db to local db"
+  },
+  {
+    "command": "./bin/wp-cli-remote -install sqmsmoketests -command plugin list -prod",
+    "description": "WP Cli - Get list of plugins for install sqmsmoketests"
+  },
+  {
+    "command": "heroku run bash -a my-wpe",
+    "description": "[FeatureFlag] Access production:"
+  },
+  {
+    "description": "[FeatureFlag] Access dev",
+    "command": "heroku run bash -a my-wpe-development"
+  },
+  {
+    "description": "[FeatureFlag] Open Rails console",
+    "command": "rails console"
+  },
+  {
+    "description": "[FeatureFlag] Find feature",
+    "command": "feature = Feature.find_by(name: Feature::BRAND_NEW_FEATURE)"
+  },
+  {
+    "description": "[FeatureFlag] Find account",
+    "command": "account = Account.find_by(name: 'ACCOUNT_NAME')"
+  },
+  {
+    "description": "[FeatureFlag] Add account to feature flag",
+    "command": "FeaturesConsumer.create(feature: feature, consumer: account)"
+  },
+  {
+    "description": "[FeatureFlag] Check accounts with feature",
+    "command": "Account.with_feature(\"brand_new_feature\")"
+  },
+  {
+    "description": "[FeatureFlag] Remove a feature when there's no more accounts attached (outside rails console)",
+    "command": "bin/rake features:remove_feature[\"brand_new_feature\"]"
+  }
+]

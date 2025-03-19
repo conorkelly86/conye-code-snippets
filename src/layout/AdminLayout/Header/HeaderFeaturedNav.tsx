@@ -34,9 +34,14 @@ export default function HeaderFeaturedNav() {
           <Nav.Link className="p-2">Portal</Nav.Link>
         </Link>
       </Nav.Item>
-         <Nav.Item>
+      <Nav.Item>
         <Link href="/queries" passHref>
           <Nav.Link className="p-2">Queries</Nav.Link>
+        </Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Link href="/commands" passHref>
+          <Nav.Link className="p-2">Commands</Nav.Link>
         </Link>
       </Nav.Item>
     </Nav>

@@ -171,6 +171,9 @@ export default function SidebarNav() {
       <SidebarNavItem icon={faCode} href="queries">
         Queries
       </SidebarNavItem>
+      <SidebarNavItem icon={faCode} href="commands">
+        Commands
+      </SidebarNavItem>
     </ul>
   );
 }
