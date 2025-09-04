@@ -1,5 +1,17 @@
 [
   {
+    "description": "Symlink to WPE Unite dev folder",
+    "command": "ln -s \"/Users/conor.kelly/Development/wpe/ecom-wpe-unite-plugin/wpe-unite\" \"/Users/conor.kelly/Local Sites/ckwpee/app/public/wp-content/plugins/wpe-unite\""
+  },
+  {
+    "description": "Sync Products",
+    "command": "wp wpe-unite sync-products-from-events"
+  },
+  {
+    "description": "Bulk import products",
+    "command": "./runners/run-products-create.sh k6/scripts/load/product-create/product-create.js"
+  },
+  {
     "command": "make destroy; npm ci; bundle install;",
     "description": "Not authorised to view a site in Portal localhost"
   },
