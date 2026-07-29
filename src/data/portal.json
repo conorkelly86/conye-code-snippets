@@ -2,5 +2,9 @@
   {
     "command": "/sites?add_site_success=yourinstallnamehere&env=production&woo=1",
     "description": "Force open Welcome to Woocommerce Modal"
+  },
+  {
+    "command": "make stop\nmake db_start\nmake db_latest_dev\ndocker cp tmp/latest.dump docker-database-1:/tmp/latest.dump\nmake db_drop\nmake db_create\nmake db_restore\nmake start-no-portal",
+    "description": "Pulling latest db from dev"
   }
 ]

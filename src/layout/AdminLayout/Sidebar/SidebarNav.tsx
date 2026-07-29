@@ -174,6 +174,9 @@ export default function SidebarNav() {
       <SidebarNavItem icon={faCode} href="commands">
         Commands
       </SidebarNavItem>
+      <SidebarNavItem icon={faCode} href="product-info-service">
+        Product Info Service
+      </SidebarNavItem>
     </ul>
   );
 }

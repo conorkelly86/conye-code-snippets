@@ -1,0 +1,14 @@
+[
+  {
+    "command": "https://wp-product-info-staging.wpesvc.net/v1/plugins/wpengine-smart-search?download",
+    "description": "Link to plugin"
+  },
+  {
+    "command": "curl -XPOST --fail-with-body --no-progress-meter \\\n  -H \"Content-Type: multipart/form-data\" \\\n  -H \"Authorization: Token 771f234784472676b17d1f826a1773e5670b0194\" \\\n  -F \"version=0.3.25\" \\\n  -F \"zip_file=@/Users/conor.kelly/Development/wpe/wp-content-engine/artifacts/atlas-search.zip;filename=wpengine-smart-search-ai-0.3.25.zip\" \\\n  -F \"json_file=@/Users/conor.kelly/Development/wpe/wp-content-engine/artifacts/info.json\" \\\n  https://wp-product-info-staging.wpesvc.net/v1/plugins/wpengine-smart-search",
+    "description": "Manually push latest plugin"
+  },
+  {
+    "command": "AUTH_TOKEN=$(curl -XPOST --fail-with-body --no-progress-meter \\\n  -u \"ckelly_:YOUR_LDAP_PASSWORD\" \\\n  https://auth-staging.wpengine.io/v1/tokens | jq -r '.token')",
+    "description": "Get staging auth token"
+  }
+]
